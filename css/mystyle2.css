@@ -1,0 +1,101 @@
+/* CSS Document */
+*{
+	padding:0;
+	margin:0 auto;
+	max-width: 640px;
+}
+a{
+	text-decoration: none;}
+
+#outfirst{
+	width:640px;
+	height:298px;
+	margin:0px;
+	}
+
+#bigpic{
+	width:640px;
+	height:298px;
+	background-image:url(../image/header.png);
+	}
+
+#language{
+	z-index:1;
+	padding-top:20px;
+	padding-left:460px;
+	width:154px;
+	height:28px;
+	}
+
+#logo{
+	margin:0px;
+	width:564px;
+	height:94px;
+	padding-left:38px;
+	padding-right:38px;}
+#neirong{
+	margin:0px;
+	width:640px;
+	height:1968px;
+	margin-bottom:40px;}
+
+.leftimg{
+	padding-left:4px;
+	padding-right:2px;
+	margin-top:3px;
+	margin-bottom:3px;
+	width:314px;
+	height:108px;
+	float:left;
+	}
+
+.rightimg{
+	width:314px;
+	height:108px;
+	float:right;
+	padding-left:2px;
+	padding-right:4px;
+	margin-top:3px;
+	margin-bottom:3px;
+	}
+
+#bt-most{
+	margin:0px;
+	width:640px;
+	height:570px;}
+
+#mg{
+	font-family:"微软雅黑";
+	height:auto;
+	width:640px;
+	background:#333;
+}
+
+#lastwords1{
+	padding-top:19px;
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:10px;
+	color:#FFF;
+	text-align: center;
+}
+
+#lastwords2{
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:9px;
+	line-height:20px;
+	color:#FFF;
+	text-align: center;
+	padding-bottom:19px;
+}
+
+.fg{
+	position:relative;
+	bottom:0;
+	left:0;
+	margin-top:3px;
+	width:640px;}
+	

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width ,intial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes" />    
+	<meta name="format-detection" content="telephone=no" />
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/numberstyle.css" type="text/css">
+	<title>PACC</title>
+	<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+	<script src="js/jPages.js"></script>
+	<script>
+  	/* when document is ready */
+  	$(function() {
+    	/* initiate plugin */
+    	$("div.holder").jPages({
+      	containerID: "itemContainer"
+    	});
+  	});
+  	window.onload = function(){
+  	var oTop = document.getElementById("holder");
+  	oTop.onclick = function(){
+    	document.documentElement.scrollTop = document.body.scrollTop =0;
+  	}
+	}  
+	</script>
+	<style type="text/css">
+  	#holder {margin: 30px 0;
+		width:360px;
+		height:50px;
+		position: relative;
+    	text-align: center;
+  		zoom: 1;
+		margin:0px auto 40px 140px;}
+  
+	</style>
+</head>
+<body>
+    <section id="outfirst">
+    	<div id="bigpic">
+        	<div id="language"><a href="#"><img src="image/Group.png" width="77" height="14" border="0"></a></div>
+        </div>
+	</section>
+    <content>
+        <section id="logo">
+            <img src="image/pt.png">
+        </section>
+        <ul id="itemContainer">
+        
+        
+        <li class="p2">
+            <ul>
+                <li><h1>【PACC走进社区】公共艺术重塑市民生活空间</h1></li>
+                <li><h2>5月14日</h2></li>
+            </ul>
+            <a href="http://mp.weixin.qq.com/s?__biz=MzAwMDI5NzQyOA==&mid=2650212201&idx=1&sn=799d4860d63b71772169ad5b4c311d44#rd"><img src="image/small/0514.jpg" border="0"></a>
+            <div class="p3">
+                <h2>社区微更新计划唤起人们内心深处的情感与记忆。
+                    <br>...</h2>
+            </div>
+            <div class="p4">
+                <h2><a href="http://mp.weixin.qq.com/s?__biz=MzAwMDI5NzQyOA==&mid=2650212201&idx=1&sn=799d4860d63b71772169ad5b4c311d44#rd">查看全部</a> </h2>
+            </div>
+        </li>
+        </ul>
+    </content>
+    <footer class="fg">
+        <div id="mg">
+        	<div id="lastwords1">版权所有©2012-2015上海公共艺术协同创新中心 地址:上海市宝山区沪太路4788号（顾村公园环岛路2号）201906 电话:86-21-60671310</div>
+            <div id="lastwords2">COPYRIGHT©2012-2015 PUBLIC ART COORDINATION CENTER.ALL RIGHT RESERVED</div>
+        </div>
+        
+    </footer>
+</body>
+
+</html>
